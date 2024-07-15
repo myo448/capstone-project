@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2024 by myo448 (http://jsbin.com/qizaboc/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+body {background-color: lavender;
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+#test {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  }
+
+#ok {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+
+#im {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+#travel {
+  display: grid;
+grid-template-columns: repeat(3, 1fr);}
+
+
+#active {
+  display: grid;
+grid-template-columns: repeat(3, 1fr);}
+
+#hobby {
+  display: grid;
+grid-template-columns: repeat(3, 1fr);}
+
+#future {
+  display: grid;
+grid-template-columns: repeat(3, 1fr);}
+
+#dance{
+  display: flex;
+}
+
+body {
+  color: black;
+  position: relative;
+    left: 10px;
+}
+
+h3 {
+  color: black;
+}
+
+#bad {
+  color: black;
+  position: relative;
+    left: -20px;
+    top: 30px
+}
+
+#good {
+  color: black;
+  position: relative;
+  top:30px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+  <center> <div><h1>About me</h1></div></center>
+    <div><h3> My name: Myo</h3></div>
+    <div><h3> My age: 14</h3></div>
+    <div><h3> My zodiac: Scorpio</h3></div>
+    <div><h3> My birthday: 11/21</h3></div>
+    <div><h3> My dream job: Mechanical engineer</h3></div>
+    <div><h3> My ethnicity: 🇨🇺 🇯🇵 🇵🇷 </h3></div>
+  
+<div id= "test">
+  <div><center><h2>My favorties</h2></center>
+    <div id="ok">
+    <ul>
+      <li>Color: Plastel Colors(blue)</li>     
+      <li>Sport: Gymnastics</li>
+      <li>Subject: Math(Algebra)</li>
+      <li>Flower: Tulip</li>
+      <li>Fruit: Green Grapes</li>
+      <li>Elective: Dance</li>
+      <li>Season: Fall</li>
+      <li>Holiday: Christmas</li>
+      <li>Vacation: Hawaii</li>
+     </ul>
+      <img id ="good" src = "data:image/jpeg;base64,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"></img>
+           </div>
+  
+  </div>
+  <div>
+<center><div><h2>My least favorties</h2></div></center>
+    <div id="im">
+    <ul>
+      <li>Color: Dark Yellow</li>
+      <li>Sport: American Football/Soccer</li>
+      <li>Subject: English</li>
+      <li>Flower: Veronica</li>
+      <li>Fruit: blueberry?</li>
+      <li>Electives: Fitness</li>
+      <li>Season: Spring</li>
+      <li>Holiday: CC day</li>
+      <li>Vacation: none</li>
+    </ul>
+      <img id= "bad" src = "data:image/jpeg;base64,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"></img>
+  </div>
+</div>
+  </div>  
+
+  <center><div><h2>Fun Facts</h2></div></center>
+    <ul>
+      <li>I started gymnastics at 7 years old(half my life)</li>
+          <dd>-I started competative gymnastics at 10 years old</dd>
+      <li>I started volleyball at 12ish years old</li>
+          <dd>-On a team for one year</dd>
+      <li>I did dance for 5 years, took a break then started last year(6+ years)</li>
+      <li>I did cheerleading and I want to do it again(2 years)</li>
+      <li>I am willing to do a lot of sports if its an option </li>
+          <dd>-basketball,baseball, swimming, tennis, archery, martial arts, etc.</dd>
+      <li>I babysit and pet sit(only one so far but I'll do more)</li>
+      <li>I have a pet dog and shes 6 years old</li>
+      <li>I have 3 siblings, one being a half sibling</li>
+      <li>I played violin(3+ years), piano(1+ year), and flute(2+ years)</li>
+      <li>I hate reading books and I would only read picture books</li>
+      <li>I love fruits and would eat a whole bag/container whenever we have</li>
+      <li>I know how to speak 3 languages(not fluent but getting there)</li>
+      <li>___</li>
+      <li>___</li>
+     </ul>
+
+
+<center><div> <h2> Bucket list</h2></div></center>
+  <div> <h3> Travel Plans:</h3></div>
+ <div id = "travel">
+    <div> <input type="checkbox" <h3>Japan</h3></div>
+    <div> <input type="checkbox" <h3>Flordia</h3></div>
+    <div> <input type="checkbox" <h3>Hawaii</h3></div>
+    <div> <input type="checkbox" <h3>Seoul</h3></div>
+    <div> <input type="checkbox" <h3>Puerto Rico</h3></div>
+    <div> <input type="checkbox" <h3>Spain</h3></div>
+    <div> <input type="checkbox" <h3>Taiwan</h3></div>
+    <div> <input type="checkbox" <h3>Brazil</h3></div>
+    <div> <input type="checkbox" <h3>Harbin</h3></div>
+    <div> <input type="checkbox" <h3>China</h3></div>
+    <div> <input type="checkbox" <h3>London</h3></div>
+    <div> <input type="checkbox" <h3>France</h3></div>
+    <div> <input type="checkbox" <h3>Greece</h3></div>
+    <div> <input type="checkbox" <h3>Italy</h3></div>
+    <div> <input type="checkbox" <h3>Thailand</h3></div>
+    <div> <input type="checkbox" <h3>Dominican Republic</h3></div>
+    <div> <input type="checkbox" <h3>Aruba</h3></div>
+    <div> <input type="checkbox" <h3>Mexico</h3></div>
+</div>
+   <div> <h3> Activities:</h3></div>
+ <div id = "active">
+    <div> <input type="checkbox" <h3>Sky Diving</h3></div>
+    <div> <input type="checkbox" <h3>Bungee Jumping</h3></div>
+    <div> <input type="checkbox" <h3>High diving</h3></div>
+    <div> <input type="checkbox" <h3>Climb a mountain</h3></div>
+    <div> <input type="checkbox" <h3>Concert</h3></div>
+    <div> <input type="checkbox" <h3>Watch broadway</h3></div>
+    <div> <input type="checkbox" <h3>Star gazing</h3></div>
+    <div> <input type="checkbox" <h3>Nails done</h3></div>
+    <div> <input type="checkbox" <h3>Spa</h3></div>
+    <div> <input type="checkbox" <h3>See Olympics</h3></div>
+    <div> <input type="checkbox" <h3>Roadtrip</h3></div>
+    <div> <input type="checkbox" <h3>Tattoo</h3></div>
+    <div> <input type="checkbox" <h3>Surfing</h3></div>
+    <div> <input type="checkbox" <h3>Snowboarding</h3></div>
+    <div> <input type="checkbox" <h3>Skiing</h3></div>
+    <div> <input type="checkbox" <h3>Hold Zoo Animal</h3></div>
+    <div> <input type="checkbox" <h3>Name every flag</h3></div>
+    <div> <input type="checkbox" <h3>Horse riding</h3></div>
+    <div> <input type="checkbox" <h3>Karaoke</h3></div>
+    <div> <input type="checkbox" <h3>Learn new language</h3></div>
+    <div> <input type="checkbox" <h3>Fluent in S/J</h3></div>
+    <div> <input type="checkbox" <h3>Trapeze</h3></div>
+    <div> <input type="checkbox" <h3>New Sport</h3></div>
+    <div> <input type="checkbox" <h3>Watch Movies</h3></div>
+</div>
+
+    <div> <h3> Future:</h3></div>
+ <div id = "future">
+    <div> <input type="checkbox" <h3>Score 4+ on all APs</h3></div>
+    <div> <input type="checkbox" <h3>Maintain 4.0 and stay in deans list</h3></div>
+    <div> <input type="checkbox" <h3>Be straigh A student all four years</h3></div>
+    <div> <input type="checkbox" <h3>Volunteer more</h3></div>
+    <div> <input type="checkbox" <h3>More extracurriculars</h3></div>
+    <div> <input type="checkbox" <h3>Join more clubs</h3></div>
+    <div> <input type="checkbox" <h3>Get an academic prize</h3></div>
+    <div> <input type="checkbox" <h3>Study abroad</h3></div>
+    <div> <input type="checkbox" <h3>Graduate HS being in top 10</h3></div>
+    <div> <input type="checkbox" <h3>Get a scholarship to a college</h3></div>
+    <div> <input type="checkbox" <h3>Go to a top school</h3></div>
+    <div> <input type="checkbox" <h3>Get a degree mechanical engineering</h3></div>
+    <div> <input type="checkbox" <h3>Graduate with honors</h3></div>
+    <div> <input type="checkbox" <h3>Become a mechanical engineer</h3></div>
+    <div> <input type="checkbox" <h3>Get a good paying job</h3></div>
+    <div> <input type="checkbox" <h3>Get a big and good house</h3></div>
+    <div> <input type="checkbox" <h3>Make a good and healthy family</h3></div>
+</div>
+
+  <div> <h3> Goals:</h3></div>
+ <div id = "hobby">
+    <div> <input type="checkbox" <h3>Tumble not on floor</h3></div>
+    <div> <input type="checkbox" <h3>R bhs bt alone</h3></div>
+    <div> <input type="checkbox" <h3>Bwo on beam</h3></div>
+    <div> <input type="checkbox" <h3>Bt off beam</h3></div>
+    <div> <input type="checkbox" <h3>Bhs on beam</h3></div>
+    <div> <input type="checkbox" <h3>flyaway alone</h3></div>
+    <div> <input type="checkbox" <h3>Clear-hip</h3></div>
+    <div> <input type="checkbox" <h3>First overall</h3></div>
+    <div> <input type="checkbox" <h3>Spike down</h3></div>
+    <div> <input type="checkbox" <h3>Jump higher</h3></div>
+    <div> <input type="checkbox" <h3>Dolphine dive</h3></div>
+    <div> <input type="checkbox" <h3>Overhand serve</h3></div>
+    <div> <input type="checkbox" <h3>Set smoother</h3></div>
+    <div> <input type="checkbox" <h3>Run faster</h3></div>
+    <div> <input type="checkbox" <h3>Build stamina</h3></div>
+</div>
+
+<script id="jsbin-javascript">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+</style>
+
+
+
+</script>
+</body>
+</html>
