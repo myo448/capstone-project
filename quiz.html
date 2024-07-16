@@ -22,40 +22,6 @@ body {background-color: lavender;
   
 }
 
-#test {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  }
-
-#ok {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-}
-
-
-#im {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-}
-
-#travel {
-  display: grid;
-grid-template-columns: repeat(3, 1fr);}
-
-
-#active {
-  display: grid;
-grid-template-columns: repeat(3, 1fr);}
-
-#hobby {
-  display: grid;
-grid-template-columns: repeat(3, 1fr);}
-
-#future {
-  display: grid;
-grid-template-columns: repeat(3, 1fr);}
-
-
 
 body {
   color: black;
@@ -67,18 +33,14 @@ h3 {
   color: black;
 }
 
-#bad {
+h3 {
   color: black;
-  position: relative;
-    left: -20px;
-    top: 30px
 }
 
-#good {
-  color: black;
-  position: relative;
-  top:30px
+#quiz {
+   font-weight: 200;
 }
+
 
 </style>
 </head>
@@ -86,6 +48,31 @@ h3 {
 <body>
   <center><div><h1>Quiz Page</h1></div></center>
   <div><h3>You will be asked questions that are related to the previous pages and you have to answer them correctly.</h3></div>
+<p>Whats my favorite color:</p>
+  
+  <div id=quiz>
+  <h3><input type="radio" id="blue" name="fav_language" value="blue">
+  <label for="blue">Blue</label><br>
+  <input type="radio" id="yellow" name="fav_language" value="Yellow">
+  <label for="yellow">Yellow</label><br>
+  <input type="radio" id="Light red" name="fav_language" value="Light red">
+     <label for="Light red">Light red</label><br>
+  <input type="radio" id="Dark red" name="fav_language" value="Dark red">
+     <label for="Dark red">Dark red</label><br></h3>
+  <input type="submit" value="Submit">
+
+ <p>Whats my favorite color:</p>
+   <h3><input type="radio" id="blue" name="fav_language" value="blue">
+  <label for="blue">Blue</label><br>
+  <input type="radio" id="yellow" name="fav_language" value="Yellow">
+  <label for="yellow">Yellow</label><br>
+  <input type="radio" id="Light red" name="fav_language" value="Light red">
+     <label for="Light red">Light red</label><br>
+  <input type="radio" id="Dark red" name="fav_language" value="Dark red">
+     <label for="Dark red">Dark red</label><br></h3>
+  <input type="submit" value="Submit">
+  </div>
+
 </body>
 </head>
 </html>
