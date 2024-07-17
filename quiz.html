@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width">
   <title>quiz page</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
-
 </head>
 <body>
   <center><div><h1>Quiz Page</h1></div></center>
@@ -13,7 +12,7 @@
 
   <p>Whats my favorite color:</p>
    
-  <div id=quiz>
+  <div>
  <form id="form"> <h3><input type="radio" id="Blue" name="color" value="Blue">
  <label for="Blue">Blue</label><br>
  <input type="radio" id="yellow" name="color" value="Yellow">
@@ -22,10 +21,12 @@
      <label for="Light red">Light red</label><br>
   <input type="radio" id="Dark red" name="color" value="Dark red">
      <label for="Dark red">Dark red</label><br></h3>
-  <div><input type="submit" value="Submit"> correct</div>
+   <input id=submit type="submit" value="Submit"></input>
+    <div id= "yup"> correct ✅</div>
     </form>
  <p>What sport I do:</p>
-   <h3><input type="radio" id="Swimming" name="sports" value="Swimming">
+  
+ <form id="form1"> <h3><input type="radio" id="Swimming" name="sports" value="Swimming">
  <label for="Swimming">Swimming</label><br>
  <input type="radio" id="Volleyball" name="sports" value="Volleyball">
  <label for="Volleyball">Volleyball</label><br>
@@ -33,7 +34,32 @@
      <label for="Basketball">Basketball</label><br>
   <input type="radio" id="Football" name="sports" value="Football">
      <label for="Football">Football</label><br></h3>
-  <input type="submit" value="Submit">
-  </div>
-  </body>
+   <input id="sumbit1" type="submit" value="submit"></input>
+   <div id= "yup1"> correct ✅</div>
+
+    </form>
+   <script src="script.js"></script>
+   </body>
 </html>
+
+<p>Which is false:</p>
+  
+<form id="form2"> <h3><input type="radio" id="Dance" name="things" value="Dance">
+    <label for="Dance">My dance teacher was a judge on dance moms</label><br>
+<input type="radio" id="Violin" name="things" value="Violin">
+    <label for="Violin">I didn't like violin but I continued for years for no reason</label><br>
+<input type="radio" id="Cheerleading" name="things" value="Cheerleading">
+    <label for="Cheerleading">I did cheerleading in 2nd and 3rd grade but not in 4th and the whole 4th grade I was regretting not joining</label><br>
+ <input type="radio" id="Ankle" name="things" value="Ankle">
+    <label for="Ankle">In the beginning of 9th grade I sprained my ankle and couldn't do any sports for 2 months</label><br>
+ <input type="radio" id="Cooking" name="things" value="Cooking">
+    <label for="Cooking">I love cooking and would try many different recepies even if they take hours</label><br>
+  <input type="radio" id="Soccer" name="things" value="Soccer">
+    <label for="Soccer">I played soccer for like 2 years but was really bad at it so I quit and don't like it</label><br></h3>
+  <input id="sumbit2" type="submit" value="submit"></input>
+  <div id= "yup2"> correct ✅</div>
+
+   </form>
+ 
+
+
