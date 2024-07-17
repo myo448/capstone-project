@@ -5,6 +5,39 @@ body {background-color: lavender;
   
 }
 
+#test {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  }
+
+#ok {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+
+#im {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+#travel {
+  display: grid;
+grid-template-columns: repeat(3, 1fr);}
+
+
+#active {
+  display: grid;
+grid-template-columns: repeat(3, 1fr);}
+
+#hobby {
+  display: grid;
+grid-template-columns: repeat(3, 1fr);}
+
+#future {
+  display: grid;
+grid-template-columns: repeat(3, 1fr);}
+
 
 body {
   color: black;
