@@ -95,7 +95,7 @@ var good3 = "Flute"
 
 function myFunction3(event) {
   event.preventDefault();
-  var ele = document.getElementsByName('things');
+  var ele = document.getElementsByName('band');
   var selectedButton = "";
  ele.forEach(function(element) {
      if(element.checked){
