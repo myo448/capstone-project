@@ -62,7 +62,7 @@ function theFunction2() {
 
 
 var form2 = document.getElementById("form2")
-form.addEventListener("submit", myFunction1);
+form2.addEventListener("submit", myFunction2);
 
 var good2 = "Cooking"
 
@@ -81,3 +81,29 @@ function myFunction2(event) {
  })
 }
 
+
+function theFunction3() {
+  var pen = document.getElementById("yup3");
+      pen.style.display = "inline-block";
+}
+
+
+var form3 = document.getElementById("form3")
+form3.addEventListener("submit", myFunction3);
+
+var good3 = "Flute"
+
+function myFunction3(event) {
+  event.preventDefault();
+  var ele = document.getElementsByName('things');
+  var selectedButton = "";
+ ele.forEach(function(element) {
+     if(element.checked){
+       selectedButton = element.value
+       console.log(selectedButton)
+         if(selectedButton === good3){
+           theFunction3()
+         }
+     }
+ })
+}
